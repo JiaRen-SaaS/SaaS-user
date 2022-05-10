@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.xtoon</groupId>
-	<artifactId>xtoon-boot</artifactId>
+	<groupId>saas</groupId>
+	<artifactId>user</artifactId>
 	<version>1.0</version>
-	<name>xtoon-boot</name>
-	<description>xtoon-boot is a base DDD develop framework</description>
+	<name>user base</name>
+	<description>user base</description>
 
 	<developers>
 		<developer>
