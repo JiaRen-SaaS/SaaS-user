@@ -2,7 +2,7 @@
 server:
   port: 8080
   servlet:
-    context-path: /xtoon-boot
+    context-path: /user-saas
 
 spring:
   # 环境 dev|test|prod

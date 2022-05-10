@@ -3,9 +3,9 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         druid:
             driver-class-name: com.mysql.cj.jdbc.Driver
-            url: jdbc:mysql://localhost:3306/xtoon-boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+            url: jdbc:mysql://localhost:3306/saas-user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
             username: root
-            password: haoxin963
+            password: abcd1234
             initial-size: 10
             max-active: 100
             min-idle: 10
@@ -33,7 +33,7 @@ spring:
     redis:
         database: 1
         host: 127.0.0.1
-        port: 7706
+        port: 6379
         password:
         timeout: 6000ms  # 连接超时时长（毫秒）
         jedis:
